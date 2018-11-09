@@ -1,0 +1,91 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    background: #0575E6;
+}
+h5{
+    margin-top: ;
+    color: aliceblue;
+    font-size: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+
+}
+h2{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+h4{
+    color: #FFAF7B;
+    font-size: 30px;
+}
+.vl{
+border-left: 10px solid #fff;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 35%;
+}
+img{
+    height: 100px;
+    width: 100px;
+    
+}
+.player-one img{
+    margin-left: 80px;
+}
+.player-one h4{
+   margin-left: 100px;
+   margin-top: -10px;
+}
+.player-one h2{
+    margin-left: 75px;
+    border : 2px solid #fff;
+}
+.player-two h4{
+    margin-left: 82%;
+    margin-top: px;
+}
+.player-two h2{
+    margin-left: 400px;
+    margin-top: 10px;    
+}
+
+.player-two img{
+    float: right;
+    margin-left: 410px;
+}
+#players{
+    display: flex;
+}
+#player img{
+    margin-left: 50px;
+}
+
+#game{
+    display: flex;
+}
+.game-images{
+    display: flex;
+    margin: auto;
+    
+}
+.game-images img{
+    margin-left: 50px;
+    height: 60px;
+    width: 60px;
+
+}
+.scissors_div img:hover{
+    opacity: .1;
+}
+.rock_div img:hover{
+    opacity: .1;
+}
+
+
+
+.paper_div img:hover{
+    opacity: .1;
+}

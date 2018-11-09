@@ -1,0 +1,32 @@
+body{
+    background:#f24e4e;
+    padding: 30px;
+}
+h2{
+    color: grey;
+    font-family: roboto;
+    text-align: center;
+    letter-spacing: 8px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#card-look{
+    background: #fff;
+    height: 300px;
+   
+    margin-top: 70px;
+}
+
+
+ input{
+     text-align: center;
+    margin-left: 65px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+
+    
+   
+}

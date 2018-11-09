@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="google-signin-client_id" content="994087167835-k382o84l71b277o56d8nvh2kefi7u742.apps.googleusercontent.com">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  </head>
+
+  <style>
+      h1{
+          padding-top: 200px;
+      }
+  .btn-sign{
+      margin-left: 45%;
+      margin-top: 7%;
+  }
+  
+  </style>
+  <body>
+
+
+<!-- <p>
+        994087167835-9dgqk2fpn63p2moorugnt4qomksspv9n.apps.googleusercontent.com
+
+
+        O9KcX2d-UKxx6TD0NeVI34Wj
+</p> -->
+        
+
+
+
+
+
+
+    <h1 class="text-center">Googlezz Login</h1>
+
+
+    <div class="btn-sign">
+            <div class="g-signin2 text-center" data-onsuccess="onSignIn"></div>
+            <div class="data">
+
+            </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+
+    <script>
+    function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+    
+    </script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

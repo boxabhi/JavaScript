@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <h5>The rock, paper and scissors game.</h5>
+
+            <section id="players">
+                <div class="player-one">
+                    <img src="player.png">
+                    
+                    <h2 id="player_one_score">0</h2>
+                    <h4>User</h4>
+                </div>
+                <div class="vl">
+
+                </div>
+                <div class="player-two">
+                    <img src="player_two.png">
+
+                    
+                    <h2 id="player_two_score">0</h2>
+                    <h4>Comp</h4>
+                </div>
+            </section>
+
+            <section id="game">
+                <div class="game-images">
+                    <div class="rock_div">
+                    <img src="cave-painting.png" id="rock">
+                        </div>
+                        <div class="paper_div">
+                                <img src="toilet-paper (1).png" id="paper">
+                        </div>
+
+                        <div class="scissors_div">
+                                <img src="scissors.png" id="scissors">
+                                    </div>
+
+                </div>
+            </section>
+        
+            <h5 id="result">Make you move.</h5>
+        <script src="app.js" async defer></script>
+    </body>
+</html>

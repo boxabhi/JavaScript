@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+.main{
+    margin: 70px auto;
+    background: #ccc;
+    width: 200px;
+    border-radius: 5px  #000 solid;
+    height: 180px;
+}
+.badge {
+    background: #ff6868;
+    color:#fff;
+    font-family: Roboto;
+    font-weight: bold; 
+    width: 200px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 10px;
+   margin: auto;
+
+}
+img{
+    margin-left: -250px;
+    position: relative;
+   
+    
+}
+
+.clock{
+    padding-top: 20px;
+    background: rgb(158, 158, 158);
+    padding: 20px;
+    margin: 10px;
+}
+
+.clock span{
+    margin: 100px auto;
+    padding-top: 100px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 10px solid #000;
+
+}
